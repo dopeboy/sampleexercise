@@ -1,6 +1,6 @@
 class ATM {
     public static void main(String[] args) {
-        Account a = new Account(AccountType.CHECKING, 200);
+        Account a = new Account(AccountType.CHECKING, 300);
 
         // This should print out the initial balance (200)
         System.out.println(a.getBalance());
